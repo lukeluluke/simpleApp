@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<Label top="50" id="label">Hello, World</Label>
+		<Button onClick="searchClick">Search</Button>
+		<Label top="10" id="num">0</Label>
+	</Window>
+</Alloy>

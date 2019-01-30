@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.lucidity</id>
+  <name>SimpleProject2</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>3a2ea025-59e6-43b5-9fff-87f8200478c6</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1">
+    </manifest>
+  </android>
+  <modules>
+    <module platform="commonjs">ti.cloud</module>
+  </modules>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+  </deployment-targets>
+  <sdk-version>7.5.0.GA</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
+  <property name="appc-app-id" type="string">5c513a66cf97e81b9c55c6a0</property>
+  <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-development" type="string">LMNWoWyZLCo0yYvBRYP1raaR3o0jLhGX</property>
+  <property name="acs-oauth-key-development" type="string">ZdNPuBtGHJ2A4Nkid0Q8uics4BGjt0UK</property>
+  <property name="acs-api-key-development" type="string">3UU1F1KvicBGUXUiVcNlS2zgJftLOQJn</property>
+  <property name="acs-username-development" type="string">appc_app_user_dev</property>
+  <property name="acs-password-development" type="string">27b0WqFavbnO1qF5U8</property>
+  <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-production" type="string">aSa8yq58ie71oZKIPJWJ0Uq73tPTohNT</property>
+  <property name="acs-oauth-key-production" type="string">pVoZJwhM0TQLKxvvX9POb21WGJI3p41l</property>
+  <property name="acs-api-key-production" type="string">akIa2YJeYhw6KgAOP0RwLaCYxGOEko2I</property>
+  <property name="acs-username-production" type="string">appc_app_user</property>
+  <property name="acs-password-production" type="string">aPzCLH8TuMChxyiwW5</property>
+  <property name="appc-org-id" type="string">100012632</property>
+  <property name="appc-creator-user-id" type="string">89d90af9-9736-4613-9da5-42f251a2bf2f</property>
+</ti:app>
