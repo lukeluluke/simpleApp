@@ -22,10 +22,4 @@ function searchClick(e) {
 	xhr.send();
 }
 
-
-
-setInterval(function () {
-	searchClick();
-}, 10000)
-
 $.index.open();
