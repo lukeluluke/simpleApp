@@ -2,7 +2,8 @@ var count = 0;
 
 function searchClick(e) {
 	console.log('Start to make api call');
-	var url = 'https://pokeapi.co/api/v2/ability/4/';
+    $.num.text = count + ' calls';
+	var url = 'https://www.mediawiki.org/w/api.php?action=help&recursivesubmodules=1';
 	var xhr = Ti.Network.createHTTPClient({
 		onload: function(e) {
 			Ti.API.debug(this.responseText);
